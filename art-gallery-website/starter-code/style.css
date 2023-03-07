@@ -1,0 +1,1345 @@
+
+
+body {
+  margin: 0;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*border-left: 8.1vw solid black;
+  border-right: 8.1vw solid black;*/
+}
+
+.App{
+  width: 500px;
+}
+
+header{
+  display: flex;
+  width: auto;
+  height: 100px;
+  background-color: black;
+  color: wheat;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.FirstImg{
+  background: #151515;
+  display: block;
+  position: relative;
+  text-align: right;
+  align-items: center;
+  justify-content: left;
+  width: 77.8vw;
+  height: 55vw;
+  margin-right: 50%;
+}
+.FirstImg img{
+  width: 48%;
+  height: 55vw;
+}
+
+.FirstImgText{
+  white-space: pre;
+  font-family: "Big Shoulders Display Black"; 
+  font-size: 6.6vw;
+  line-height: 0.9em;
+  position: absolute;
+  width: 5%;
+  top: 24%;
+  left: 26.9%;
+  color: rgb(255, 255, 255); 
+  mix-blend-mode: difference;
+  overflow-wrap: break-word;
+}
+.FirstDesc{
+  white-space: pre;
+  font-family: 'Outfit';
+  font-size: 1.5vw;
+  line-height: 1.45em;
+  font-style: bold;
+  position: absolute;
+  width: 1%;
+  top: 20%;
+  left: 91.6%;
+  color: #444444; 
+  overflow-wrap: break-word;
+}
+.Location{
+  background: #151515;
+  display: block;
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255); 
+  width: 17.8%;
+  height: 9.1%;
+  top: -48%;
+  left: 94%;
+  border-right: 4.0vw solid #D5966C;
+  overflow-wrap: break-word;
+}
+.Location:hover{
+  border-right: 4.0vw solid #151515;
+}
+.LocationDesc button:hover{
+  background: #D5966C;
+}
+
+
+.Location img{
+  position: absolute;
+  width: 5.5%;
+  height: 35%;
+  top: 30%;
+  left: 110%;
+}
+.LocationDesc{
+  white-space: pre;
+  font-family: "Big Shoulders Display Semibold"; 
+  position: absolute;
+  font-size: 1.4vw;
+  line-height: 1.47em;
+  letter-spacing: 0.21em;
+  top: -11%;
+  left: -13%;
+  color: rgb(255, 255, 255); 
+  overflow-wrap: break-word;
+}
+.LocationDesc button{
+  font-family: "Big Shoulders Display Semibold"; 
+  position: absolute;
+  font-size: 1.4vw;
+  line-height: 1.47em;
+  letter-spacing: 0.21em;
+  color: rgb(255, 255, 255); 
+  background-color: #151515;
+  top: 9%;
+  left: 38%;
+  width: 13.5vw;
+  height: 5vw;
+  border: 0px;
+  overflow-wrap: break-word;
+}
+.SecondImg{
+  display: block;
+  position: relative;
+  text-align: right;
+  align-items: center;
+  justify-content: left;
+  width: 98vw;
+  height: 45vw;
+  left: -6%;
+}
+
+.SecondImg img{
+  position: relative;
+  width: 48%;
+  height: 27.8vw;
+  top: -21%;
+  left:-5.65%;
+}
+
+.SecondImgText{
+  white-space: pre;
+  font-family: "Big Shoulders Display Black"; 
+  font-size: 4.1vw;
+  line-height: 1.05em;
+  position: relative;
+  width: 5%;
+  top: 38%;
+  left: 14%;
+  overflow-wrap: break-word;
+  color: #151515;
+}
+.SecondDesc{
+  white-space: pre;
+  font-family: 'Outfit';
+  font-size: 1.5vw;
+  line-height: 1.48em;
+  font-style: bold;
+  position: relative;
+  width: 1%;
+  top: 38%;
+  left: 12%;
+  color: #444444; 
+  overflow-wrap: break-word;
+}
+.Gallery1{
+  display: block;
+  position: relative;
+  text-align: right;
+  align-items: center;
+  justify-content: left;
+  width: 62vw;
+  height: 61vw;
+  left:-40%;
+}
+.Gallery1 img{
+  position: relative;
+  width: 78%;
+  height: 50.4vw;
+  top:-4%;
+  left:18%;
+}
+.Gallery2{
+  background: #151515;
+  display: block;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: left;
+  width: 32.5vw;
+  height: 26vw;
+  top:-47.8%;
+  left:122%;
+}
+.Gallery2 img {
+  position: relative;
+  width: 32.5vw;
+  height: 22.4vw;
+  top:-94%;
+  left:0%;
+
+}
+.GalleryImgText{
+  white-space: pre;
+  font-family: "Big Shoulders Display Black"; 
+  font-size: 4.2vw;
+  line-height: 1.05em;
+  position: relative;
+  width: 1%;
+  top: -72%;
+  left: 12%;
+  overflow-wrap: break-word;
+  color: #ffffff;
+}
+.GalleryDesc{
+  white-space: pre;
+  font-family: "Outfit";
+  font-size: 1.4vw;
+  line-height: 1.48em;
+  letter-spacing: 0.05em;
+  font-style: normal;
+  position: relative;
+  width: 80%;
+  top: -71%;
+  left: 3%;
+  color: #ffffff; 
+  white-space:normal;
+  overflow-wrap: break-word;
+}
+.Footer{
+ 
+  background: #151515;
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 100vw;
+  height: 20vw;
+  left:0%;
+}
+.FooterText{
+  white-space: pre;
+  font-family: 'Big Shoulders Display Black'; 
+  font-size: 2.3vw;
+  line-height: 0.5em;
+  letter-spacing: 0.03em;
+  position: relative;
+  width: 1%;
+  top: 38%;
+  left: 10%;
+  overflow-wrap: break-word;
+  color: #ffffff;
+}
+.FooterDesc{
+  white-space: pre;
+  font-family: "Outfit";
+  font-size: 1.25vw;
+  line-height: 1.7em;
+  letter-spacing: 0.05em;
+  font-style: normal;
+  position: relative;
+  width: 1%;
+  top: 5%;
+  left: 31%;
+  color: #ffffff; 
+  overflow-wrap: break-word;
+}
+.Footer img{
+  position: relative;
+  width: 1.4%;
+  top: -25%;
+  left:32%;
+  margin-left: 1.6%;
+}
+header img{
+  height: 30%;
+}
+.Map{
+  display: block;
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255); 
+  width: 24vw;
+  height: 43vw;
+  left: -35%;
+  overflow-wrap: break-word;
+}
+.Map img{
+  position: absolute;
+  width: 103vw;
+  height: 43vw;
+  top: 0%;
+  left: -12.5%;
+}
+.Return{
+  background: #151515;
+  display: block;
+  position: absolute;
+  text-align: center;
+  color: rgb(255, 255, 255); 
+  width: 15vw;
+  height: 5.1vw;
+  left: 11%;
+  border-left: 4vw solid #D5966C;
+  overflow-wrap: break-word;
+}
+.Return:hover{
+  border-left: 4vw solid #151515;
+}
+.ReturnDesc button:hover{
+  background: #D5966C;
+}
+.Return img{
+  position: absolute;
+  width: 5%;
+  height: 35%;
+  top: 30%;
+  left: -16%;
+}
+.ReturnDesc{
+  white-space: pre;
+  font-family: "Big Shoulders Display Semibold"; 
+  position: absolute;
+  font-size: 1.4vw;
+  line-height: 1.47em;
+  letter-spacing: 0.21em;
+  top: -11%;
+  left: -13%;
+  color: rgb(255, 255, 255); 
+  overflow-wrap: break-word;
+}
+.ReturnDesc button{
+  font-family: "Big Shoulders Display Semibold"; 
+  position: absolute;
+  font-size: 1.4vw;
+  line-height: 1.47em;
+  letter-spacing: 0.21em;
+  color: rgb(255, 255, 255); 
+  background-color: #151515;
+  border:0px;
+  top: 9%;
+  left: 56%;
+  width: 15vw;
+  height: 5.1vw;
+  overflow-wrap: break-word;
+}
+.Mid{
+  background: #151515;
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 100vw;
+  height: 42vw;
+  left:0%;
+}
+.MidText1{
+  white-space: pre;
+  font-family: 'Big Shoulders Display Black'; 
+  font-size: 4.8vw;
+  line-height: 0.5em;
+  letter-spacing: 0.03em;
+  position: relative;
+  width: 1%;
+  top: 28%;
+  left: 12.5%;
+  overflow-wrap: break-word;
+  color: #ffffff;
+}
+.MidText2{
+  white-space: pre;
+  font-family: 'Big Shoulders Display Black'; 
+  font-size: 2.6vw;
+  line-height: 0.5em;
+  letter-spacing: 0.03em;
+  position: relative;
+  width: 1%;
+  top: 5%;
+  left: 53%;
+  overflow-wrap: break-word;
+  color: #D5966C;
+}
+.Address{
+  white-space: pre;
+  font-family: "Outfit";
+  font-size: 1.45vw;
+  line-height: 1.7em;
+  letter-spacing: 0.05em;
+  font-style: normal;
+  position: relative;
+  width: 90%;
+  top: 11%;
+  left: 52.5%;
+  color: #ffffff; 
+  overflow-wrap: break-word;
+  text-align: left;
+  white-space:pre;
+}
+.MidDesc{
+  white-space: pre;
+  font-family: "Outfit";
+  font-size: 1.45vw;
+  line-height: 1.7em;
+  letter-spacing: 0.05em;
+  font-style: normal;
+  position: relative;
+  width: 1%;
+  top: 5%;
+  left: 51%;
+  color: #ffffff; 
+  overflow-wrap: break-word;
+}
+.FooterLocation{
+ 
+  background: #D5966C;
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 100vw;
+  height: 18vw;
+  left:0%;
+}
+.FooterLocationText{
+  white-space: pre;
+  font-family: 'Big Shoulders Display Black'; 
+  font-size: 2.6vw;
+  line-height: 0.5em;
+  letter-spacing: 0.03em;
+  position: relative;
+  width: 1%;
+  top: 38%;
+  left: 10%;
+  overflow-wrap: break-word;
+  color: #151515;
+}
+.FooterLocationDesc{
+  white-space: pre;
+  font-family: "Outfit";
+  font-size: 1.25vw;
+  line-height: 1.7em;
+  letter-spacing: 0.05em;
+  font-style: normal;
+  position: relative;
+  width: 1%;
+  top: 0;
+  left: 32%;
+  color: #151515; 
+  overflow-wrap: break-word;
+}
+.FooterLocation img{
+  position: relative;
+  width: 1.4%;
+  top: -30%;
+  left:40%;
+  margin-left: 1.6%;
+  filter: invert(90%);  
+}
+/* Tablet */
+@media (max-width:768px)  {
+  .FirstImg{
+    display: block;
+    position: relative;
+    width: 75vw;
+    height: 66vw;
+    margin-right: 60%;
+  }
+  .FirstImg img{
+    width: 78%;
+    height: 80vw;
+  }
+  
+  .FirstImgText{
+    white-space: pre;
+    font-family: "Big Shoulders Display Black"; 
+    font-size: 9.4vw;
+    line-height: 0.9em;
+    position: absolute;
+    width: 5%;
+    top: 16%;
+    left: 90%;
+    color: rgb(255, 255, 255); 
+    mix-blend-mode: difference;
+    overflow-wrap: break-word;
+  }
+  .FirstDesc{
+    white-space: pre;
+    font-family: 'Outfit';
+    font-size: 2.4vw;
+    line-height: 1.45em;
+    font-style: bold;
+    position: absolute;
+    width: 55%;
+    top: 45%;
+    left: 85%;
+    color: #444444; 
+    white-space:normal;
+    overflow-wrap: break-word;
+  }
+  .Location{
+    background: #151515;
+    display: block;
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    width: 32%;
+    height: 12.1%;
+    top: -38%;
+    left: 89%;
+    border-right: 6.6vw solid #D5966C;
+    overflow-wrap: break-word;
+  }
+  .Location:hover{
+    border-right: 6.6vw solid #151515;
+  }
+  .LocationDesc button:hover{
+    background: #D5966C;
+  }
+  .Location img{
+    position: absolute;
+    width: 5.5%;
+    height: 35%;
+    top: 30%;
+    left: 110%;
+  }
+  .LocationDesc{
+    white-space: pre;
+    font-family: "Big Shoulders Display Semibold"; 
+    position: absolute;
+    font-size: 1.4vw;
+    line-height: 1.47em;
+    letter-spacing: 0.21em;
+    top: -8%;
+    left: -8%;
+    color: rgb(255, 255, 255); 
+    overflow-wrap: break-word;
+  }
+  .LocationDesc button{
+    font-family: "Big Shoulders Display Semibold"; 
+    position: absolute;
+    font-size: 2.6vw;
+    line-height: 1.47em;
+    letter-spacing: 0.21em;
+    color: rgb(255, 255, 255); 
+    background-color: #151515;
+    top: 12%;
+    left: 43%;
+    width: 24vw;
+    height: 7.9vw;
+    border: 0px;
+    overflow-wrap: break-word;
+  }
+  .SecondImg{
+    display: block;
+    position: relative;
+    text-align: right;
+    align-items: center;
+    justify-content: left;
+    width: 98vw;
+    height: 100vw;
+    left: -6%;
+  }
+  
+  .SecondImg img{
+    position: relative;
+    width: 58%;
+    height: 52vw;
+    top: -1%;
+    left:4.5%;
+  }
+  
+  .SecondImgText{
+    white-space: pre;
+    font-family: "Big Shoulders Display Black"; 
+    font-size:7.1vw;
+    line-height: 1.05em;
+    position: relative;
+    width: 5%;
+    top: 38%;
+    left: 10%;
+    overflow-wrap: break-word;
+    color: #151515;
+  }
+  .SecondDesc{
+    white-space: pre;
+    font-family: 'Outfit';
+    font-size: 2.5vw;
+    line-height: 1.48em;
+    font-style: bold;
+    position: relative;
+    width: 1%;
+    top: 38%;
+    left: 6%;
+    color: #444444; 
+    overflow-wrap: break-word;
+  }
+  .Gallery1{
+    display: block;
+    position: relative;
+    text-align: right;
+    align-items: center;
+    justify-content: left;
+    width: 68vw;
+    height: 80vw;
+    left:-40%;
+  }
+  .Gallery1 img{
+    position: relative;
+    width: 83%;
+    height: 80vw;
+    top:-12%;
+    left:22%;
+  }
+  .Gallery2{
+    background: #151515;
+    display: block;
+    position: relative;
+    width: 35vw;
+    height: 43vw;
+    top:-66.5%;
+    left:126%;
+  }
+  .Gallery2 img {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    top:-86%;
+    left:0%;
+  
+  }
+  .GalleryImgText{
+    white-space: pre;
+    font-family: "Big Shoulders Display Black"; 
+    font-size: 6.2vw;
+    line-height: 1.05em;
+    position: relative;
+    width: 1%;
+    top: -65%;
+    left: 12%;
+    overflow-wrap: break-word;
+    color: #ffffff;
+  }
+  .GalleryDesc{
+    display: inline-block;
+    font-family: "Outfit";
+    font-size: 2.2vw;
+    line-height: 1.48em;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    position: relative;
+    width: 14em;
+    height: 12em;
+    top: -55%;
+    left: 0%;
+    color: #ffffff; 
+    white-space:normal;
+    overflow-wrap: break-word;
+  }
+  .Footer{
+   
+    background: #151515;
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    height: 30vw;
+    left:0%;
+  }
+  .FooterText{
+    white-space: pre;
+    font-family: 'Big Shoulders Display Black'; 
+    font-size: 3.6vw;
+    line-height: 0.5em;
+    letter-spacing: 0.03em;
+    position: relative;
+    width: 1%;
+    top: 23%;
+    left: 5%;
+    overflow-wrap: break-word;
+    color: #ffffff;
+  }
+  .FooterDesc{
+    white-space: pre;
+    font-family: "Outfit";
+    font-size: 1.55vw;
+    line-height: 1.7em;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    position: relative;
+    width: 32%;
+    top: 0%;
+    left: 34%;
+    color: #ffffff; 
+    overflow-wrap: break-word;
+    white-space:normal;
+  }
+  .Footer img{
+    position: relative;
+    width: 2.8%;
+    top: -35%;
+    left:36%;
+    margin-left: 1.6%;
+  }
+  header img{
+    height: 30%;
+  }
+  .Map{
+    display: block;
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    width: 120vw;
+    height: 100vw;
+    left: 12.5%;
+    overflow-wrap: break-word;
+  }
+  #map{      
+    content:url("assets/tablet/image-map@2x.png");
+} 
+  .Map img{
+    position: absolute;
+    width: 130%;
+    height: 100%;
+    top: 0%;
+    left: -25.5%;
+  }
+  .Return{
+    background: #151515;
+    display: block;
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    width: 20vw;
+    height: 8.1vw;
+    left: 11%;
+    border-left: 6vw solid #D5966C;
+    overflow-wrap: break-word;
+  }
+  .Return:hover{
+    border-left: 6vw solid #151515;
+  }
+  .ReturnDesc button:hover{
+    background: #D5966C;
+  }
+  .Return img{
+    position: absolute;
+    width: 5%;
+    height: 35%;
+    top: 30%;
+    left: -16%;
+  }
+  .ReturnDesc{
+    white-space: pre;
+    font-family: "Big Shoulders Display Semibold"; 
+    position: absolute;
+    font-size: 1.4vw;
+    line-height: 1.47em;
+    letter-spacing: 0.21em;
+    top: -11%;
+    left: -13%;
+    color: rgb(255, 255, 255); 
+    overflow-wrap: break-word;
+  }
+  .ReturnDesc button{
+    font-family: "Big Shoulders Display Semibold"; 
+    position: absolute;
+    font-size: 2.4vw;
+    line-height: 1.47em;
+    letter-spacing: 0.21em;
+    color: rgb(255, 255, 255); 
+    background-color: #151515;
+    border:0px;
+    top: 12%;
+    left: 70%;
+    width: 20vw;
+    height: 8.1vw;
+    overflow-wrap: break-word;
+  }
+  .Mid{
+    background: #151515;
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    height: 50vw;
+    left:0%;
+  }
+  .MidText1{
+    white-space: pre;
+    font-family: 'Big Shoulders Display Black'; 
+    font-size: 7vw;
+    line-height: 0.5em;
+    letter-spacing: 0.03em;
+    position: relative;
+    width: 1%;
+    top: 30%;
+    left: 4%;
+    overflow-wrap: break-word;
+    color: #ffffff;
+  }
+  .MidText2{
+    white-space: pre;
+    font-family: 'Big Shoulders Display Black'; 
+    font-size: 4vw;
+    line-height: 0.5em;
+    letter-spacing: 0.03em;
+    position: relative;
+    width: 1%;
+    top: 5%;
+    left: 45%;
+    overflow-wrap: break-word;
+    color: #D5966C;
+  }
+  .Address{
+    white-space: pre;
+    font-family: "Outfit";
+    font-size: 2vw;
+    line-height: 1.7em;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    position: relative;
+    width: 90%;
+    top: 15%;
+    left: 44%;
+    color: #ffffff; 
+    overflow-wrap: break-word;
+    text-align: left;
+    white-space:pre;
+  }
+  .MidDesc{
+    white-space: pre;
+    font-family: "Outfit";
+    font-size: 2vw;
+    line-height: 1.7em;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    position: relative;
+    width: 1%;
+    top: 12%;
+    left: 42%;
+    color: #ffffff; 
+    overflow-wrap: break-word;
+    text-align: left;
+  }
+  .FooterLocation{
+   
+    background: #D5966C;
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    height: 30vw;
+    left:0%;
+  }
+  .FooterLocationText{
+    white-space: pre;
+    font-family: 'Big Shoulders Display Black'; 
+    font-size: 3.2vw;
+    line-height: 0.5em;
+    letter-spacing: 0.03em;
+    position: relative;
+    width: 1%;
+    top: 10%;
+    left: 5%;
+    overflow-wrap: break-word;
+    color: #151515;
+  }
+  .FooterLocationDesc{
+    white-space: pre;
+    font-family: "Outfit";
+    font-size: 2.25vw;
+    line-height: 1.7em;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    text-align: left;
+    position: relative;
+    width: 45%;
+    top: 0;
+    left: 28%;
+    color: #151515; 
+    overflow-wrap: break-word;
+    white-space:normal;
+  }
+  .FooterLocation img{
+    position: relative;
+    width: 2.4%;
+    top: -18%;
+    left:30%;
+    margin-left: 1.6%;
+    filter: invert(90%);  
+  }
+}
+/* Mobile */
+@media (max-width:375px)  {
+  .FirstImg{
+    display: block;
+    position: relative;
+    background-color: transparent;
+    width: 140vw;
+    height: 150vw;
+    margin-left: 38%;
+  }
+  #hero{      
+    content:url("assets/mobile/image-hero@2x.jpg");
+} 
+  .FirstImg img{
+    width: 78%;
+    height: 60vw;
+  }
+  
+  .FirstImgText{
+    white-space: pre;
+    font-family: "Big Shoulders Display Black"; 
+    font-size: 16vw;
+    line-height: 0.9em;
+    position: absolute;
+    width: 5%;
+    top: 43%;
+    left: 27%;
+    color: rgb(255, 255, 255); 
+    mix-blend-mode: difference;
+    overflow-wrap: break-word;
+  }
+  .FirstDesc{
+    white-space: pre;
+    font-family: 'Outfit';
+    font-size: 5.4vw;
+    line-height: 1.45em;
+    font-style: bold;
+    position: absolute;
+    text-align: left;
+    width: 65%;
+    top: 65%;
+    left: 27%;
+    color: #444444; 
+    white-space:normal;
+    overflow-wrap: break-word;
+  }
+  .Location{
+    background: #151515;
+    display: block;
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    width: 40%;
+    height: 12%;
+    top: 50%;
+    left: 27%;
+    border-right: 14vw solid #D5966C;
+    overflow-wrap: break-word;
+  }
+  .Location:hover{
+    border-right: 14vw solid #151515;
+  }
+  .LocationDesc button:hover{
+    background: #D5966C;
+  }
+  .Location img{
+    position: absolute;
+    width: 5.5%;
+    height: 35%;
+    top: 30%;
+    left: 110%;
+  }
+  .LocationDesc{
+    white-space: pre;
+    font-family: "Big Shoulders Display Semibold"; 
+    position: absolute;
+    font-size: 1.4vw;
+    line-height: 1.47em;
+    letter-spacing: 0.21em;
+    width: 100%;
+    height: 100%;
+    top: -8%;
+    left: -8%;
+    color: rgb(255, 255, 255); 
+    overflow-wrap: break-word;
+  }
+  .LocationDesc button{
+    font-family: "Big Shoulders Display Semibold"; 
+    position: absolute;
+    font-size: 6.6vw;
+    line-height: 1.47em;
+    letter-spacing: 0.21em;
+    color: rgb(255, 255, 255); 
+    background-color: #151515;
+    top: 8%;
+    left: 8%;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    overflow-wrap: break-word;
+  }
+  .SecondImg{
+    display: block;
+    position: relative;
+    text-align: right;
+    align-items: center;
+    justify-content: left;
+    width: 98vw;
+    height: 150vw;
+    left: -6%;
+  }
+  
+  .SecondImg img{
+    position: relative;
+    width: 87%;
+    height: 52vw;
+    top: -40%;
+    left:0%;
+  }
+  
+  .SecondImgText{
+    white-space: pre;
+    font-family: "Big Shoulders Display Black"; 
+    font-size:13.1vw;
+    line-height: 1.05em;
+    position: relative;
+    width: 5%;
+    top: 50%;
+    left: 13%;
+    overflow-wrap: break-word;
+    color: #151515;
+  }
+  .SecondDesc{
+    white-space: pre;
+    font-family: 'Outfit';
+    font-size: 5.5vw;
+    line-height: 1.48em;
+    font-style: bold;
+    position: relative;
+    width: 1%;
+    top: 45%;
+    left: 6%;
+    color: #444444; 
+    overflow-wrap: break-word;
+  }
+  .Gallery1{
+    display: block;
+    position: relative;
+    text-align: right;
+    align-items: center;
+    justify-content: left;
+    width: 100vw;
+    height: 215vw;
+    left:-31%;
+    margin-bottom:70%;
+  }
+  .Gallery1 img{
+    position: relative;
+    width: 83%;
+    height: 90vw;
+    top:-2%;
+    left:22%;
+  }
+  .Gallery2{
+    background: #151515;
+    display: block;
+    position: relative;
+    width: 19.4em;
+    height: 35%;
+    top:47%;
+    left:39%;
+  }
+  .Gallery2 img {
+    position: relative;
+    width: 100%;
+    height: 120%;
+    top:-130%;
+    left:0%;
+  
+  }
+  #gallery1{      
+    content:url("assets/mobile/image-grid-2@2x.png");
+} 
+  #gallery2{      
+    content:url("assets/mobile/image-grid-3x.png");
+} 
+  .GalleryImgText{
+    white-space: pre;
+    font-family: "Big Shoulders Display Black"; 
+    font-size: 13.2vw;
+    line-height: 1.05em;
+    position: relative;
+    width: 1%;
+    top: -110%;
+    left: 12%;
+    overflow-wrap: break-word;
+    color: #ffffff;
+  }
+  .GalleryDesc{
+    display: inline-block;
+    font-family: "Outfit";
+    font-size: 5.2vw;
+    line-height: 1.48em;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    position: relative;
+    width: 14em;
+    height: 12em;
+    top: -105%;
+    left: 0%;
+    color: #ffffff; 
+    white-space:normal;
+    overflow-wrap: break-word;
+  }
+  .Footer{
+   
+    background: #151515;
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 110vw;
+    height: 96vw;
+    left:0%;
+  }
+  .FooterText{
+    white-space: pre;
+    font-family: 'Big Shoulders Display Black'; 
+    font-size: 6.6vw;
+    line-height: 0.5em;
+    letter-spacing: 0.03em;
+    position: relative;
+    width: 1%;
+    top: 15%;
+    left: 10%;
+    overflow-wrap: break-word;
+    color: #ffffff;
+  }
+  .FooterDesc{
+    white-space: pre;
+    font-family: "Outfit";
+    font-size: 3.55vw;
+    line-height: 1.7em;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    position: relative;
+    text-align: left;
+    width: 70%;
+    top: 25%;
+    left: 10%;
+    color: #ffffff; 
+    overflow-wrap: break-word;
+    white-space:normal;
+  }
+  .Footer img{
+    position: relative;
+    width: 4.8%;
+    height: 8%;
+    top: 30%;
+    left:-30%;
+    margin-left: 1.6%;
+  }
+  header img{
+    height: 30%;
+  }
+  .Map{
+    display: block;
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    width: 100vw;
+    height: 130vw;
+    left: 12.5%;
+    overflow-wrap: break-word;
+  }
+  #map{      
+    content:url("assets/mobile/image-map@2x.png");
+} 
+  .Map img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: -12.8%;
+  }
+  .Return{
+    background: #151515;
+    display: block;
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    width: 42vw;
+    height: 13vw;
+    left: 0;
+    border-left: 11vw solid #D5966C;
+    overflow-wrap: break-word;
+  }
+  .Return:hover{
+    border-left: 11vw solid #151515;
+  }
+  .ReturnDesc button:hover{
+    background: #D5966C;
+  }
+  .Return img{
+    position: absolute;
+    width: 5%;
+    height: 35%;
+    top: 30%;
+    left: -18%;
+  }
+  .ReturnDesc{
+    white-space: pre;
+    font-family: "Big Shoulders Display Semibold"; 
+    position: absolute;
+    font-size: 1.4vw;
+    line-height: 1.47em;
+    letter-spacing: 0.21em;
+    top: -11%;
+    left: -13%;
+    color: rgb(255, 255, 255); 
+    overflow-wrap: break-word;
+  }
+  .ReturnDesc button{
+    font-family: "Big Shoulders Display Semibold"; 
+    position: absolute;
+    font-size: 4.7vw;
+    line-height: 1.47em;
+    letter-spacing: 0.21em;
+    color: rgb(255, 255, 255); 
+    background-color: #151515;
+    border:0px;
+    top:25%;
+    left: 155%;
+    width: 42vw;
+    height: 13vw;
+    overflow-wrap: break-word;
+  }
+  .Mid{
+    background: #151515;
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    height: 125vw;
+    left:0%;
+  }
+  .MidText1{
+    white-space: pre;
+    font-family: 'Big Shoulders Display Black'; 
+    font-size: 12.1vw;
+    line-height: 0.5em;
+    letter-spacing: 0.03em;
+    position: relative;
+    width: 89%;
+    top: 12%;
+    left: -5%;
+    overflow-wrap: break-word;
+    color: #ffffff;
+    white-space:normal;
+  }
+  .MidText2{
+    white-space: pre;
+    font-family: 'Big Shoulders Display Black'; 
+    font-size: 7vw;
+    line-height: 0.5em;
+    letter-spacing: 0.03em;
+    position: relative;
+    width: 1%;
+    top: 20%;
+    left: 7%;
+    overflow-wrap: break-word;
+    color: #D5966C;
+  }
+  .Address{
+    white-space: pre;
+    font-family: "Outfit";
+    font-size: 4vw;
+    line-height: 1.7em;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    position: relative;
+    width: 90%;
+    top: 23%;
+    left: 5%;
+    color: #ffffff; 
+    overflow-wrap: break-word;
+    text-align: left;
+    white-space:pre;
+  }
+  .MidDesc{
+    white-space: pre;
+    font-family: "Outfit";
+    font-size: 3.7vw;
+    line-height: 1.7em;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    position: relative;
+    width: 90%;
+    top: 22%;
+    left: 7%;
+    color: #ffffff; 
+    overflow-wrap: break-word;
+    text-align: left;
+    white-space:normal;
+  }
+  .FooterLocation{
+   
+    background: #D5966C;
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    height: 70vw;
+    left:0%;
+  }
+  .FooterLocationText{
+    white-space: pre;
+    font-family: 'Big Shoulders Display Black'; 
+    font-size: 7vw;
+    line-height: 0.5em;
+    letter-spacing: 0.03em;
+    position: relative;
+    width: 1%;
+    top: 10%;
+    left: 6%;
+    overflow-wrap: break-word;
+    color: #151515;
+  }
+  .FooterLocationDesc{
+    white-space: pre;
+    font-family: "Outfit";
+    font-size: 4.25vw;
+    line-height: 1.7em;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    text-align: left;
+    position: relative;
+    width: 95%;
+    top: 20%;
+    left: 6%;
+    color: #151515; 
+    overflow-wrap: break-word;
+    white-space:normal;
+  }
+  .FooterLocation img{
+    position: relative;
+    width: 5.4%;
+    top: 30%;
+    left:-33%;
+    margin-left: 4%;
+    filter: invert(90%);  
+  }
+}
